@@ -5,5 +5,7 @@
 .car {
     width: 50px;
     height: 100px;
-    background: red;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./image/new-player.png);
 }

@@ -8,7 +8,7 @@
     height: 100px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(./image/new-player.png);
+    background-image: url(./image/player.png);
     position: absolute;
     left: 125px;
     bottom: 10px;
@@ -29,4 +29,35 @@
     height: 50px;
     background: white;
     left: 145px;
+}
+
+.start {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 2rem 0;
+    text-align: center;
+    z-index: 999;
+    color: white;
+    font-size: 1.5 rem;
+    background: black;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.score {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: black;
+    padding: 1rem 0;
+    z-index: 200;
+    font-size: 1.5 rem;
+    font-family: sans-serif;
+    color: cornflowerblue;
+    text-align: center;
 }
